@@ -1,0 +1,21 @@
+
+.header {
+    display: flex;            
+    align-items: center;      
+    justify-content: space-between; 
+    padding: 10px 20px;        
+    background-color: #07516e;  
+  }
+  
+  
+  .site-name {
+    font-size: 1.5rem;         
+    font-weight: bold;       
+  }
+  
+  .header-center {
+    flex-grow: 1;             
+    display: flex;             
+    justify-content: center;    
+  }
+  
