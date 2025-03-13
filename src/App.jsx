@@ -3,7 +3,7 @@ import Header from './components/Header/Header';
 import Matrix from './components/Columns/Columns';
 import ImageCard from './components/ImageCard/ImageCard';
 import Footer from './components/Footer/Footer';
-
+import Table from './components/Table/Table'
 
 
 
@@ -40,6 +40,7 @@ function App() {
       />
         
     </Matrix>
+    <Table></Table>
     <Footer></Footer>
 
       
