@@ -1,12 +1,11 @@
 // Header.jsx
 import React from 'react';
-import './header.css'; // Import the CSS file for styling
+import './header.css';
+import { Link } from 'react-router-dom';
 
-// Functional component for the Header
 function Header() {
   return (
     <header className="header">
-      {/* Left section: Contains the logo and the site name */}
       <div className="header-left">
         <img 
           src="/path/to/logo.png" 
@@ -15,8 +14,6 @@ function Header() {
         />
         <span className="site-name">Site Name</span>
       </div>
-
-      {/* Center section: Contains the search bar */}
       <div className="header-center">
         <input 
           type="text" 
@@ -24,10 +21,8 @@ function Header() {
           className="search-input" 
         />
       </div>
-
-      {/* Right section: Contains the login/profile button */}
       <div className="header-right">
-        <button className="login-button">Login</button>
+        <Link to="/login" className="login-button">Login</Link>
       </div>
     </header>
   );

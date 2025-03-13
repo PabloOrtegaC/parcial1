@@ -1,8 +1,10 @@
+import React from 'react';
 import Table from 'react-bootstrap/Table';
+import './Table.css';
 
 function StripedRowExample() {
   return (
-    <Table striped>
+    <Table striped className="custom-table">
       <thead>
         <tr>
           <th>#</th>
