@@ -28,9 +28,9 @@ Cada componente que contiene texto estático (como Header, Login, Menu, Stores y
 Se añadió un LanguageSwitcher que se fija en la esquina inferior izquierda y permite cambiar el idioma de forma dinámica, garantizando que la interfaz se mantenga consistente en todas las páginas.
 
 Organización de Componentes:
-Componentes de Página: Se crearon vistas separadas para cada sección (Login, Home, Menu, Stores y Cart), cada una con su respectivo header (por ejemplo, Header para Menu/Home, Header2 para Stores, y Header3 para Cart) para reflejar iconografía y textos específicos.
-Componentes Comunes: Se desarrollaron componentes reutilizables como los headers y el LanguageSwitcher, facilitando la consistencia en el diseño y la gestión de la internacionalización en toda la aplicación.
-Uso de Hooks: Se aprovechó el hook useTranslation en cada componente para obtener y renderizar las traducciones, así como otros hooks propios (como useMenu) para manejar datos provenientes de Mockaroo.
+- Componentes de Página: Se crearon vistas separadas para cada sección (Login, Home, Menu, Stores y Cart), cada una con su respectivo header (por ejemplo, Header para Menu/Home, Header2 para Stores, y Header3 para Cart) para reflejar iconografía y textos específicos.
+- Componentes Comunes: Se desarrollaron componentes reutilizables como los headers y el LanguageSwitcher, facilitando la consistencia en el diseño y la gestión de la internacionalización en toda la aplicación.
+- Uso de Hooks: Se aprovechó el hook useTranslation en cada componente para obtener y renderizar las traducciones, así como otros hooks propios (como useMenu) para manejar datos provenientes de Mockaroo.
 
 # Proceso de Implementación
 
