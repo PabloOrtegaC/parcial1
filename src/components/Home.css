@@ -3,3 +3,44 @@
     align-items: center;
     padding: 10px;
   }
+  
+  .card {
+    background-color: rgba(128, 128, 128, 0.9) !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 25px !important;
+  }
+  
+  .icon-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem; 
+    height: 100%;
+  }
+  
+  .icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .card svg {
+    fill: #000 !important;
+  }
+  
+  .icon-item span {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  

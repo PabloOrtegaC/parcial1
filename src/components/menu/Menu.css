@@ -1,15 +1,10 @@
-
 .profile-photos {
     margin-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    padding: 0 200px;
   }
-
-  .photo-item {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 20%;
+  
+  .profile-card-text {
+    font-size: 1.5rem;
+    text-align: center;
   }
   
