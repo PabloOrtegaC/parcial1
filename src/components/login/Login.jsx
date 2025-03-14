@@ -1,13 +1,17 @@
 import React from 'react';
-import './Login.css'; 
+import { useTranslation } from 'react-i18next';
+import './Login.css';
 import { Link } from 'react-router-dom';
+
 const Login = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="login-page">
       <div className="left-section">
         <div className="logo-container">
-          <h1>TOO GOOD TO GO</h1>
-          <p>FOOD WASTING SOLUTION</p>
+          <h1>{t('tooGoodToGo')}</h1>
+          <p>{t('foodWastingSolution')}</p>
         </div>
         <img
           className="salad-image"
@@ -15,26 +19,24 @@ const Login = () => {
           alt="Salad"
         />
       </div>
-
       <div className="right-section">
         <div className="form-container">
           <form>
             <div className="input-group">
-              <label htmlFor="username">Username</label>
-              <input type="text" id="username" placeholder="Username" />
+              <label htmlFor="username">{t('username')}</label>
+              <input type="text" id="username" placeholder={t('username')} />
             </div>
             <div className="input-group">
-              <label htmlFor="password">Password</label>
-              <input type="password" id="password" placeholder="Password" />
+              <label htmlFor="password">{t('password')}</label>
+              <input type="password" id="password" placeholder={t('password')} />
             </div>
             <div className="forgot-password">
-              <a href="#forgot">Forgot Password?</a>
+              <a href="#forgot">{t('forgotPassword')}</a>
             </div>
-
             <Link to="/home" className="">
-            <button type="submit" className="login-button">
-              Login
-            </button>
+              <button type="submit" className="login-button">
+                {t('login')}
+              </button>
             </Link>
           </form>
         </div>

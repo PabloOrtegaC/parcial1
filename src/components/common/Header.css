@@ -1,23 +1,45 @@
 .header {
     display: flex;            
+    flex-direction: column;  /* Stack header-center and language-switcher vertically */
     align-items: center;      
     justify-content: center;  
-    padding: 20px 40px;     
+    padding: 20px 40px;       
     background-color: #07516e;  
   }
   
   .header-center {
     display: flex;
     align-items: center;
-    color: #fff;         
+    color: #fff; /* Ensures the SVG icons and text are white */
+    margin-bottom: 10px;
   }
   
   .site-name {
-    font-size: 2.5rem;     
+    font-size: 2.5rem;        
     font-weight: bold;       
-    margin: 0 10px;        
+    margin: 0 10px;  /* Tiny space between icons and text */
   }
   
   .header-icon {
+    /* With fill="currentColor", these icons automatically render white */
+  }
+  
+  .language-switcher {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .language-switcher button {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .language-switcher button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
   }
   

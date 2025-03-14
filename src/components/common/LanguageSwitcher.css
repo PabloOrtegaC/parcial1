@@ -1,0 +1,23 @@
+.language-switcher {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+    gap: 5px;
+    z-index: 1000;
+  }
+  
+  .language-switcher button {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 3px 6px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .language-switcher button:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
