@@ -46,8 +46,8 @@ Implementación de la Internacionalización:
 Se creó el archivo i18n.js que configura los recursos en inglés, español y francés, y se inicializó react-i18next.
 Se actualizó cada componente para sustituir textos estáticos por claves de traducción utilizando el hook useTranslation.
 Se incorporó un componente LanguageSwitcher fijo en la esquina inferior izquierda, lo que permite al usuario cambiar el idioma de forma global y dinámica.
-Ajustes y Refinamientos de la Interfaz:
 
+Ajustes y Refinamientos de la Interfaz:
 Se realizaron ajustes en el layout, estilos y posicionamiento de elementos (por ejemplo, centrar las tarjetas en la página, redondear esquinas de las tarjetas y ajustar los headers).
 Se verificó la correcta visualización de los iconos correspondientes en cada header (usando iconografía distinta para Menu, Stores y Cart).
 
